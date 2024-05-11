@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text to Voice converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hero">
+    <h1> Text <img id="arrow" src="./images/arrow.png" alt=""> Voice <span>Converter</span></h1>
+    <textarea id="output" placeholder=" Type Anything Here.......!"></textarea>
+    <h2 id="btn_click"></h2>
+    <div class="row">
+      <select></select>
+      <button><img src="./images/play.png" alt="">Listen</button>
+      <button onclick="runSpeechRecog()"><img src="./images/play.png" alt="">Speak</button>
+    </div>
+  </div>
+ 
+  <script src="script.js"></script>
+  <script src="./voicetotext.js"></script>
+</body>
+</html>
